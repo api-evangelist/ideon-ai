@@ -1,8 +1,24 @@
 aid: ideon-ai
-name: Ideon AI
-description: 'Ideon AI is a company surfaced as a portfolio company of playground-global and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ideon-ai.png
+name: Ideon Technologies
+description: 'Ideon Technologies (ideon.ai) develops REVEAL, a subsurface intelligence platform that
+  uses muon tomography and geophysical inversion to image, map, and monitor mineral deposits and
+  geological structures deep underground. It helps mining companies reduce geologic uncertainty across
+  exploration, resource evaluation, geotechnical analysis, and cave monitoring, with customers including
+  Rio Tinto, Vale, Glencore, and BHP. The company is backed by Playground Global. Ideon publishes a
+  marketing and content web presence (solutions, case studies, papers, blog, careers) but no public
+  developer API, SDK, or documentation surface; this profile tracks the company as a network lead.'
 url: https://raw.githubusercontent.com/api-evangelist/ideon-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,21 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Identity corrected during enrichment: ideon.ai is Ideon Technologies (deep-tech
+  subsurface intelligence / muon tomography for mining), not an AI-software or API provider. No public
+  API surface exists; only a domain-security probe and web-presence link properties are captured.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Ai
+- Mining
+- Geophysics
+- Subsurface Intelligence
+- Muon Tomography
+- Deep Tech
+- Cleantech
+- Exploration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://ideon.ai/
+- type: Blog
+  url: https://ideon.ai/blog/
+- type: PrivacyPolicy
+  url: https://ideon.ai/privacy-policy/
+- type: Support
+  url: https://ideon.ai/contact/
+- type: DomainSecurity
+  url: security/ideon-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
