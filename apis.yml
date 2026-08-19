@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-enrichment-note: 'Identity corrected during enrichment: ideon.ai is Ideon Technologies (deep-tech
   subsurface intelligence / muon tomography for mining), not an AI-software or API provider. No public
   API surface exists; only a domain-security probe and web-presence link properties are captured.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
